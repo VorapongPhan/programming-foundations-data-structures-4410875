@@ -1,5 +1,5 @@
 def has_unique_characters(data):
-    set_data = frozenset(list(data))
+    set_data = set(data)
     return len(set_data) == len(data)
   
 print(has_unique_characters('sample'))
